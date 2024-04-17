@@ -1,0 +1,3 @@
+pgn-extract --output out.pgn -t tags.txt -bl10 -M --plylimit 30 --quiescent 2 -C -N -V -7 lichess_db_standard_rated_2014-09.pgn
+
+pgn-extract --output filtered-data/filtered-fen.pgn --notags -F filtered-data/filtered.pgn
